@@ -1,0 +1,136 @@
+.sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+.montserrat{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+nav a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.top {
+    display: flex;
+    position: relative; /* Enables flexbox */
+    align-items: center; /* Aligns items vertically */
+    justify-content: center;
+    gap: 15px; /* Adds space between items */
+  }
+
+.top h1{
+    margin-top: auto;
+    font-family: Montserrat;
+    font-size: 75px;
+    color: white;
+    width: 686px;
+    height: 173px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+body{
+    width: 1440px;
+    height: 4297px;
+    flex-shrink: 0;
+    background-color: #444425;
+}
+
+
+    
+h5 {
+    color: #881515;
+    font-family: Sacramento;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;/* Optional: adds space between title and paragraph */
+  }
+    
+p {
+    color: black;/* Text color for the paragraph */
+    font-size: 20px;/* Font size for the paragraph */
+    margin-top: auto;
+}
+    
+
+
+#grid-one{
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  row-gap: 24px;
+  column-gap: 24px;
+  background-color: bisque;
+}
+
+.grid-article-one{
+grid-column: 2/6;
+align-self: center;
+}
+
+.grid-article-two{
+  grid-column: 6/12;
+  align-self: center;
+}
+
+.grid-article-three{
+  grid-column: 2/10;
+}
+
+#grid-two{
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+  grid-template-columns: repeat(12, 1fr);
+  row-gap: 24px;
+  column-gap: 24px;
+  background-color: bisque;
+}
+
+.grid-article-four{
+  grid-row: 3/4;
+  grid-column: 2/6;
+  align-self: center;
+}
+
+.grid-article-five{
+  grid-row: 3/4;
+  grid-column: 7/12;
+  align-self: center;
+}
+
+.grid-article-seven{
+grid-column: 7/11;
+align-self: center;
+}
+
+.grid-article-nine{
+grid-column: 2/6;
+grid-row: 4/5;
+align-self: center;
+}
+
+.grid-article-ten{
+  grid-row: 5/6;
+  grid-column: 2/6;
+  align-self: center;
+}
+
+
+.grid-article-twelve{
+  grid-row: 5/6;
+  grid-column: 7/12;
+  align-self: center;
+}
