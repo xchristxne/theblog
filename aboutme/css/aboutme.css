@@ -62,7 +62,7 @@ body {
     height: 200%; /* Full height of the page */
     background: 
       linear-gradient(to bottom, #FDF6E3 12%, transparent 40%),
-      url('../img/darkleaves.jpeg');
+      url('../../img/darkleaves.jpeg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Makes the background image fixed when scrolling */
