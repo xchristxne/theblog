@@ -4,23 +4,32 @@
     font-family: "Sacramento", cursive;
     font-weight: 400;
     font-style: normal;
-  }
+    }
+    .montserrat{
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        }
   
-.montserrat{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-}
+
 
 /*===============HEADER===============*/
 
+header{
+    display: grid;
+    grid-template-rows: repeat(12, 100px);
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 24px;
+    column-gap: 24px;
+    }
 nav a{
-    color: white;
-    font-size: 18px;
-    text-decoration: none;
-    padding: 18px;
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 18px;
 }
+
 
 .top {
     display: flex;
@@ -28,26 +37,24 @@ nav a{
     align-items: center; /* Aligns items vertically */
     justify-content: center;
     gap: 15px; /* Adds space between items */
-  }
+    }
+    .top h1{
+        margin-top: auto;
+        font-family: Montserrat;
+        font-size: 75px;
+        color: white;
+        width: 686px;
+        height: 173px;
+        flex-shrink: 0;
+        color: #FFF;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        }
 
-.top h1{
-    margin-top: auto;
-    font-family: Montserrat;
-    font-size: 75px;
-    color: white;
-    width: 686px;
-    height: 173px;
-    flex-shrink: 0;
-    color: #FFF;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
+
 
 /*===============BODY===============*/
-
-
-
 body {
   margin: 0;
   height: 200%; /* Full height of the page */
@@ -58,7 +65,20 @@ body {
   background-position: center;
   background-attachment: fixed; /* Makes the background image fixed when scrolling */
   background-repeat: no-repeat; /* Prevents image repetition */
-}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
