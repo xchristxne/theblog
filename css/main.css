@@ -125,10 +125,10 @@ body {
       }
       .grid-article-two{
           grid-column: 7/13;
-          grid-row: 2/5;
-          align-self: center;
+          grid-row: 6/8;
           padding-left: 50px;
           padding-right: 100px;
+          padding-top: 55px;
           }
           .grid-article-three{
               grid-column: 1/7;
@@ -144,22 +144,22 @@ body {
               }
               .img-one{
                   grid-column: 7/11;
-                  grid-row: 5/8;
+                  grid-row: 2/5;
                   padding-left: 100px;
                   }
                   .img-two{
                       grid-column: 9/12;
-                      grid-row: 5/8;
+                      grid-row: 2/5;
                       padding-left: 50px;
                       }
                       .img-three{
                           grid-column: 11/13;
-                          grid-row: 5/8;
+                          grid-row: 2/5;
                           }
 
 /*------------------STYLE-------------------*/
 
-h5{
+.grid-article-one h5{
     color: #881515;
     font-family: Sacramento;
     font-size: 75px;
@@ -202,21 +202,7 @@ h5{
 
 
 
-.yelp-link{
-    width: 100px;/* Set the width of the rectangle*/
-    height: 25px;/* Set the height of the rectangle */
-    background-color: darkolivegreen;/* Set the background color (you can use any color) */
-    grid-column: 2/3;
-    grid-row: 4/5;
-    align-self: end;
-    padding: 0px 10px;
-    text-align: center;
-    border-radius: 15px;
-    color: white;
-    text-decoration:none;
-    justify-content: center;
-    line-height: 25px;
-    }
+
     .yelp-link-two{
         width: 100px;/* Set the width of the rectangle*/
         height: 25px;/* Set the height of the rectangle */
@@ -269,9 +255,8 @@ h5{
 }
 .bene-title{
   grid-row: 2/3;
-  grid-column: 3/8;
+  grid-column: 3/10;
   align-self: center;
-  padding-right: 8px;
 }
 
 
@@ -307,6 +292,11 @@ h5{
   grid-row: 3/7;
   grid-column: 3/7;
   z-index: 1;
+}
+.yelp-link {
+  grid-column: 3/4;
+  grid-row: 6/7;
+  align-self: end;
 }
 
 
@@ -344,13 +334,29 @@ align-self: center;
   font-size: 63px;
   text-decoration: underline;
   padding-bottom: 250px;
+  color:#881515;
 }
 
 .bene-title h5{
   font-family: 'Courier New', Courier, monospace;
   font-size: 36px;
+  color:#881515;
   text-decoration: underline;
+  margin-right: px;
 }
+
+.yelp-link{
+  width: 100px;
+  height: 25px;
+  background-color: darkolivegreen;
+  padding: 0px 10px;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+  line-height: 25px;
+  }
 
 
 
