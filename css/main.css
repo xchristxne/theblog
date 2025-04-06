@@ -166,7 +166,6 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    padding-left: 20px;
     }
     p{
         font-family: Montserrat;
@@ -194,6 +193,7 @@ body {
                       border-radius: 15px;
                       color: rgb(6, 41, 6);
                       text-align: center;
+                      padding: 5px 5px 5px 5px;
                     }
                     
 
@@ -248,14 +248,15 @@ body {
 }
 
 .vertical-text-one{
-  grid-row: 1/7;
-  grid-column: 1/6;
+  grid-row: 2/4;
+  grid-column: 3/9;
   align-self: center;
+  padding-bottom: 100px;
   z-index: 2;
 }
 .bene-title{
-  grid-row: 2/3;
-  grid-column: 3/10;
+  grid-row: 3/4;
+  grid-column: 3/7;
   align-self: center;
 }
 
@@ -271,15 +272,11 @@ body {
   align-self: center;
 }.bene-img-three{
   grid-row: 8/15;
-  grid-column: 5/7;
+  grid-column: 4/6;
   align-self: center;
 }.bene-img-four{
   grid-row: 8/15;
-  grid-column: 8/10;
-  align-self: center;
-}.bene-img-five{
-  grid-row: 8/15;
-  grid-column: 11/13;
+  grid-column: 7/9;
   align-self: center;
 }
 
@@ -288,15 +285,14 @@ body {
   grid-column: 2/7;
 }
 
-.bene-two{
-  grid-row: 3/7;
+.bene-p{
+  grid-row: 4/8;
   grid-column: 3/7;
-  z-index: 1;
 }
 .yelp-link {
   grid-column: 3/4;
-  grid-row: 6/7;
-  align-self: end;
+  grid-row: 8/9;
+  margin-top: 20px;
 }
 
 
@@ -329,20 +325,27 @@ align-self: center;
 /*--------------------STYLE-------------------*/
 
 .vertical-text-one h5{
-  transform: rotate(270deg);
-  font-family: Bungee Tint;
-  font-size: 63px;
-  text-decoration: underline;
-  padding-bottom: 250px;
+  font-family: Sacramento;
+  font-size: 80px;
+  font-weight: 100;
   color:#881515;
 }
 
 .bene-title h5{
   font-family: 'Courier New', Courier, monospace;
-  font-size: 36px;
-  color:#881515;
-  text-decoration: underline;
-  margin-right: px;
+  font-size: 28px;
+  font-weight: 500px;
+  background-color: #C9C888;
+  border-radius: 15px;
+  color: rgb(6, 41, 6);
+  text-align: center;
+  padding: 5px 5px 5px 5px;
+}
+.bene-p {
+  font-family: Montserrat;
+        color: black;
+        font-size: 20px;
+        margin-top: auto;
 }
 
 .yelp-link{
@@ -357,6 +360,20 @@ align-self: center;
   justify-content: center;
   line-height: 25px;
   }
+
+  .bene-img-two img{
+    height: 95%;
+    width: auto;
+      }
+      .bene-img-three img{
+          height: 95%;
+          width: auto;
+          padding-left: 60px;
+          }
+          .bene-img-four img{
+              height: 95%;
+              width: auto;
+              }
 
 
 
