@@ -55,7 +55,7 @@ header{
     #navbar{
         grid-area: three;
         justify-self: center;
-        align-self: start;
+        align-self: center;
         }
         #navbar button{
             margin-right: 10px;
@@ -66,7 +66,7 @@ header{
             .title{
                 grid-area: one;
                 justify-self: center;
-                margin-top: 60px;
+                margin-top: 40px;
                 }
 
 /*------------------STYLE-------------------*/
@@ -79,11 +79,12 @@ header{
     font-size: 12px;
     }
     .title h1{
-        font-family: Montserrat;
-        font-size: 65px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 80px;
         color: rgb(255, 251, 246);
         font-weight: bolder;
         text-align: center;
+        line-height: 95px;
         }
 
 
@@ -114,7 +115,7 @@ header{
               .one-p-two{
                   grid-column: 7/13;
                   grid-row: 4/8;
-                  padding: 130px 100px 50px 50px;
+                  padding: 100px 100px 50px 50px;
                   }
                   .img-one{
                       grid-column: 7/11;
